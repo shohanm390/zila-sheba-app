@@ -40,7 +40,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="text-lg font-bold">ফোন</h3>
-                <p className="text-textMuted">+880 1900000000</p>
+                <p className="text-textMuted">+8801700962537</p>
                 <p className="text-xs text-textMuted mt-1">
                   সকাল ১০টা - রাত ১০টা
                 </p>
@@ -66,7 +66,8 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="text-lg font-bold">ইমেইল</h3>
-                <p className="text-textMuted">support@zillasheba.com</p>
+                <p className="text-textMuted">infzilaseba@gmail.com
+</p>
                 <p className="text-xs text-textMuted mt-1">
                   ২৪/৭ অনলাইন সাপোর্ট
                 </p>
@@ -99,7 +100,7 @@ const Contact = () => {
               <div>
                 <h3 className="text-lg font-bold">অফিস</h3>
                 <p className="text-textMuted">House 12, Road 4, Banani</p>
-                <p className="text-xs text-textMuted mt-1">ঢাকা, বাংলাদেশ</p>
+                <p className="text-xs text-textMuted mt-1">Khulna - 9000 Bangladesh</p>
               </div>
             </div>
           </div>
