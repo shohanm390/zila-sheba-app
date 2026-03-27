@@ -12,24 +12,20 @@ const Footer = () => {
           
           {/* Logo & About */}
           <div className="space-y-4">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
-                <svg
-                  className="w-6 h-6 text-white"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M13 10V3L4 14h7v7l9-11h-7z"
-                  />
-                </svg>
-              </div>
-              <span className="text-2xl font-bold tracking-wide">জেলা সেবা</span>
+            <div className="flex items-center gap-2 cursor-pointer group">
+            <div className="w-9 h-9 bg-card border border-border rounded-xl flex items-center justify-center relative overflow-hidden group-hover:border-primary/50 transition">
+              <div className="absolute bottom-1.5 left-1.5 w-3.5 h-3.5 bg-primary/20 rounded-full"></div>
+              <div className="absolute top-2.5 right-2 w-2.5 h-2.5 bg-orange-500 rounded-full shadow-[0_0_10px_rgba(249,115,22,0.5)]"></div>
             </div>
+            <div className="flex flex-col justify-center">
+              <span className="text-xl font-bold tracking-wide text-white leading-none flex items-start gap-1">
+                Zila Seba
+                <svg className="w-3 h-3 text-primary -mt-1" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M12 1.586l-4 4v12.828l4-4V1.586zM3.707 3.293A1 1 0 002 4v10a1 1 0 00.293.707L6 18.414V5.586L3.707 3.293z" clipRule="evenodd" />
+                </svg>
+              </span>
+            </div>
+          </div>
             <p className="text-sm text-textMuted leading-relaxed">
               দেশের ১ নম্বর ডিজিটাল প্ল্যাটফর্ম। আপনার জেলার সব ধরণের তথ্য ও সেবা এখন হাতের মুঠোয়।
             </p>
