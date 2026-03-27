@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="fixed top-0 w-full z-50 bg-[#040914]/80 backdrop-blur-md border-b border-border transition-all">
+      <header className="fixed top-0 md:w-full lg:w-full w-full z-50 bg-[#040914]/80 backdrop-blur-md border-b border-border transition-all">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
           {/* Left Side: Logo & Location */}
           <div className="flex items-center gap-6 lg:gap-8">

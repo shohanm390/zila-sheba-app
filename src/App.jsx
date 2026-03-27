@@ -17,7 +17,7 @@ import PlatformFeatures from './components/PlatformFeatures';
 
 function App() {
   return (
-    <div className="antialiased selection:bg-primary selection:text-white">
+    <div className="antialiased selection:bg-primary selection:text-white overflow-x-hidden md:overflow-x-visible">
       <GlowBackground />
       <Navbar />
       <main>
