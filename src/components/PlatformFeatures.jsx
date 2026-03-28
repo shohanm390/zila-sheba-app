@@ -171,7 +171,7 @@ const PlatformFeatures = () => {
   };
 
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 relative">
+    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 relative">
       {/* Background glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-primary/5 blur-[120px] rounded-full pointer-events-none z-0"></div>
 

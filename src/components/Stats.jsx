@@ -101,7 +101,7 @@ const statsData = [
 
 const Stats = () => {
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-24">
+    <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-6">
         {statsData.map((stat) => (
           <div

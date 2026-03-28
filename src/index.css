@@ -15,7 +15,19 @@
   /* 🔤 Font */
   --font-sans: "Hind Siliguri", sans-serif;
 }
+@keyframes updown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
 
+.animate-updown {
+  animation: updown 3s ease-in-out infinite;
+}
 /* Connect CSS variables to Tailwind v4 Utility Classes */
 @theme {
   --font-sans: var(--font-sans);

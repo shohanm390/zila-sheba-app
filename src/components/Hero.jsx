@@ -3,7 +3,7 @@ import appImage from '../image/app.png'
 
 const Hero = () => {
   return (
-    <section className="pt-32 pb-20 lg:pt-40 lg:pb-32 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+    <section className="pt-32 pb-20 lg:pt-40 lg:pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
       {/* Left Content */}
       <div className="space-y-8">
         <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-border bg-card text-xs font-medium text-textMuted">
@@ -159,8 +159,8 @@ const Hero = () => {
       </div>
 
       {/* Right Content */}
-      <div className="relative flex justify-center lg:justify-end mt-12 lg:mt-0">
-        <img src={appImage} className="bg-transparent w-90 hover:scale-105 transition ease-in-out duration-500" alt="" />
+      <div className="relative flex justify-center lg:justify-end mt-12 lg:mb-10 lg:mt-0">
+        <img src={"https://zilaseba-redesign.vercel.app/images/hero-phone.png"} className="animate-updown bg-transparent w-100 hover:scale-105 transition ease-in-out duration-500" alt="" />
 
         <div className="absolute bottom-1/4 -right-4 sm:-right-8 bg-card border border-border px-4 py-3 rounded-xl shadow-xl z-20 flex items-center gap-3">
           <div className="w-8 h-8 rounded-full bg-yellow-500/20 flex items-center justify-center text-yellow-500">

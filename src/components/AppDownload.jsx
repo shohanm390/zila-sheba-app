@@ -15,7 +15,7 @@ const AppDownload = () => {
   };
 
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
       <div className="bg-card border border-border rounded-[2.5rem] overflow-hidden">
         <div className="grid lg:grid-cols-2 items-center">
           {/* Left Content */}
@@ -135,7 +135,7 @@ const AppDownload = () => {
             {/* Main phone mockup */}
             <div className="relative w-80  rounded-[2.5rem] overflow-hidden shadow-2xl z-20">
               <img
-                src={appImage} // your phone/app image
+                src={`https://zilaseba-redesign.vercel.app/images/app-screenshot.png`} // your phone/app image
                 alt="App Mockup"
                 className="w-full h-full object-cover rounded-[2.5rem] hover:scale-105 transition-transform duration-500"
               />

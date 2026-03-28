@@ -12,7 +12,7 @@ const districts = [
 
 const Coverage = () => {
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
       <div className="text-center mb-16">
         <span className="inline-block px-3 py-1 bg-card border border-border rounded-full text-xs text-textMuted mb-4">
           কভারেজ
