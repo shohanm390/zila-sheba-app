@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const CitySelect = () => {
+const CitySelect = ({className=""}) => {
   const [open, setOpen] = useState(false);
   const [selected, setSelected] = useState("Bogura"); // default district
 
@@ -24,7 +24,7 @@ const CitySelect = () => {
   };
 
   return (
-    <div className="relative">
+    <div className={`relative ${className}`}>
       {/* Dropdown Button */}
       <button
         onClick={() => setOpen(!open)}

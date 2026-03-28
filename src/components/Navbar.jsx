@@ -68,7 +68,7 @@ const Navbar = () => {
               </svg>
               <span className="text-sm font-medium text-white">Bogura</span>
             </button> */}
-            <CitySelector/>
+            <CitySelector className="hidden lg:block" />
           </div>
 
           {/* Center/Right Nav Links (Desktop View) */}
@@ -354,7 +354,7 @@ const Navbar = () => {
               </svg>
               <span className="text-sm font-medium">বাংলা</span>
             </button> */}
-                      <LanguageDropdown className="hidden lg:block"/>
+            <LanguageDropdown className="hidden lg:block" />
 
             {/* Mobile Menu Button (Hamburger/Cross Toggle) */}
             <button
@@ -685,8 +685,9 @@ const Navbar = () => {
             </svg>
             <span className="text-sm font-medium text-white">Bogura</span>
           </button> */}
-          <CitySelector/>
-          <LanguageDropdown className="block lg:hidden"/>
+          <CitySelector className="block lg:hidden" />
+
+          <LanguageDropdown className="block lg:hidden" />
         </div>
       </div>
     </>
